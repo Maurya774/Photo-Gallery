@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo Gallery</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src=""></script>
+</head>
+
+
+<body>
+    <h1>Welcome To My Photo Gallery</h1>
+    <img src="https://www.giantfreakinrobot.com/wp-content/uploads/2021/06/marvels-avengers-logo.jpg" id="avengers_logo">
+    <h2>Grid Gallery</h2>
+    <div id="avengers">
+        <img src="CaptainAmerica.jpeg">
+        <img src="Hawkeye.jpeg">
+        <img src="Hulk.webp">
+        <img src="Ironman.jpeg">
+        <img src="Thanos.webp">
+        <img src="Spiderman.jpeg">
+        <img src="Quicksilver.jpeg">
+        <img src="Thor.jpeg">
+        <img src="Ultron.jpg">
+    </div>
+    <h2>Sliding Gallery</h2>
+    <div id="mycarousel" class="carousel slide">
+        <div class="carousel-inner">
+            <div class="item active">
+                <center>
+                    <img class="img-responsive" src="CaptainAmerica.jpeg">
+                    <div class="carousel-content">
+                        <p>CaptainAmerica</p>
+                    </div>
+                </center>
+            </div>
+            <div class="item">
+                <center>
+                    <img class="img-responsive" src="Hawkeye.jpeg">
+                    <div class="carousel-content">
+                        <p>Hawkeye</p>
+                    </div>
+                </center>
+            </div>
+            <div class="item">
+                <center>
+                    <img class="img-responsive" src="Hulk.webp">
+                    <div class="carousel-content">
+                        <p>Hulk</p>
+                    </div>
+                </center>
+            </div>
+            <div class="item">
+                <center>
+                    <img class="img-responsive" src="Ironman.jpeg">
+                    <div class="carousel-content">
+                        <p>IronMan</p>
+                    </div>
+                </center>
+            </div>
+            <div class="item">
+                <center>
+                    <img class="img-responsive" src="Quicksilver.jpeg">
+                    <div class="carousel-content">
+                        <p>QuickSilver</p>
+                    </div>
+                </center>
+            </div>
+            <div class="item">
+                <center>
+                    <img class="img-responsive" src="Spiderman.jpeg">
+                    <div class="carousel-content">
+                        <p>Spiderman</p>
+                    </div>
+                </center>
+            </div>
+            <div class="item">
+                <center>
+                    <img class="img-responsive" src="Thanos.webp">
+                    <div class="carousel-content">
+                        <p>Thanos</p>
+                    </div>
+                </center>
+            </div>
+            <div class="item">
+                <center>
+                    <img class="img-responsive" src="Thor.jpeg">
+                    <div class="carousel-content">
+                        <p>Thor</p>
+                    </div>
+                </center>
+            </div>
+            <div class="item active left">
+                <center>
+                    <img class="img-responsive" src="Ultron.jpg">
+                    <div class="carousel-content">
+                        <p>Ultron</p>
+
+                    </div>
+                </center>
+            </div>
+                        <a class="left carousel-control" href="#mycarousel" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left">
+                </span>
+            </a>
+            <a class="right carousel-control" href="#mycarousel" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right">
+                </span>
+            </a>
+             <ol class="carousel-indicators">
+                <li data-target="#mycarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#mycarousel" data-slide-to="1" class=""></li>
+                <li data-target="#mycarousel" data-slide-to="2" class=""></li>
+                <li data-target="#mycarousel" data-slide-to="3" class=""></li>
+                <li data-target="#mycarousel" data-slide-to="4" class=""></li>
+                <li data-target="#mycarousel" data-slide-to="5" class=""></li>
+                <li data-target="#mycarousel" data-slide-to="6" class=""></li>
+                <li data-target="#mycarousel" data-slide-to="7" class=""></li>
+                <li data-target="#mycarousel" data-slide-to="8" class=""></li>
+            </ol>
+        </div>
+
+    </div>
+</body>
+
+</html>
